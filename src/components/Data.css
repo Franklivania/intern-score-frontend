@@ -3,4 +3,41 @@
 .data{
     font-family: var(--font);
     font-weight: 600;
+    height: calc((var(--height)) * 1);
+    width: calc((var(--width)) * 1);
+    
+}
+
+.wrapper{
+    height: calc((var(--height)) * 0.48);
+    width: calc((var(--width)) * 0.7);
+    overflow: auto;
+}
+
+table{
+    font-family: var(--font);
+    width: calc((var(--width)) * 1);
+}
+
+thead{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background: var(--plain-color);
+}
+
+tr{
+    border: 0.04rem solid var(--text-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.name{
+    width: calc((var(--width)) * 0.3);
+}
+
+.attendance{
+    width: calc((var(--width)) * 0.3);
 }

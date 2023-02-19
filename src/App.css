@@ -21,3 +21,8 @@
   --border-radius: 0.5rem;
   --radius: 50%;
 }
+
+.App{
+  height: var(--height);
+  width: var(--width);
+}
