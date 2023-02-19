@@ -1,0 +1,6 @@
+@import url(../App.css);
+
+.data{
+    font-family: var(--font);
+    font-weight: 600;
+}
